@@ -1,0 +1,12 @@
+h1,p {
+color: blue;
+}
+
+a p{
+    text-decoration: none;
+    color: green;
+}
+#solo{
+color: black;
+text-decoration: none;
+}

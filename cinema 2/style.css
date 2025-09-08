@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #d90429;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.4s;
+}
+
+a:hover {
+    color: #023e8a;
+    text-decoration: underline;
+}
+
+h2 a {
+    color: seagreen;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #0077b6;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+.filme-hoje {
+    border-left-color: #d90429;
+}
+
+.filme-amanha {
+    border-left-color: #1d3557;
+}
